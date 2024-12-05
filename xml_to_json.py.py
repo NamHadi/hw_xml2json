@@ -1,7 +1,7 @@
 import json
 import xml.etree.ElementTree as ET
 
-# Convert XML to JSON
+# Converting XML to JSON
 def xml_to_json(input_xml, output_json):
     tree = ET.parse(input_xml)
     root = tree.getroot()
