@@ -1,7 +1,7 @@
 import json
 import csv
 
-# Convert JSON to TSV
+# Converting JSON to TSV
 def json_to_tsv(input_json, output_tsv):
     with open(input_json, encoding="utf-8") as json_file:
         data = json.load(json_file)
