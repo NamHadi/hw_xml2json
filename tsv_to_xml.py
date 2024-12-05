@@ -1,7 +1,7 @@
 import csv
 import xml.etree.ElementTree as ET
 
-# Convert TSV to XML
+# Converting TSV to XML
 def tsv_to_xml(input_tsv, output_xml):
     root = ET.Element("Sentences")  # Root element
     
